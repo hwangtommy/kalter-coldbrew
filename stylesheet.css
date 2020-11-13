@@ -40,8 +40,26 @@ header{
     letter-spacing: 30px;
 }
 
-.top-wrapper{
+.about-us-wrapper{
+    background-color: #AD9043;
+}
 
+.about-us-heading h1{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.about-us-contents p{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.about-us-contents{
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
 }
 
 .menu a{
