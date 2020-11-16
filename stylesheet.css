@@ -20,6 +20,15 @@ header{
     justify-content: center;
 }
 
+.menu a{
+    text-decoration: none;
+    margin: 0 50px;
+    color: #000000;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 100px;
+}
+
 .top-wrapper{
     padding: 150px 0;
     margin-top: 100px;
@@ -39,34 +48,30 @@ header{
 }
 
 .about-us-wrapper{
-    background-color: #AD9043;
+    height: 950px;
+    background-color: #f7f7f7;
 }
 
 .about-us-heading h1{
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    color: white;
+    color: gray;
 }
 
 .about-us-contents p{
     text-align: left;
-    color: white;
+    text-justify: inter-word;
+    color: gray;
     font-size: 20px;
+}
+.about-us-contents img {
+    padding-bottom: 10px;
 }
 
 .about-us-contents{
     padding-bottom: 10px;
     padding-left: 20px;
-    
-}
-
-.menu a{
-    text-decoration: none;
-    margin: 0 50px;
-    color: #000000;
-    font-size: 20px;
-    display: inline-block;
-    line-height: 100px;
 }
 
 *{
@@ -98,20 +103,46 @@ header{
     padding: 15px 15px;
 }
 
-.product-img p {
+.product-txt p {
     color: black;
-    text-align: center;
+    position: relative;
     padding: 15px 15px;
+    left: 130px;
 }
 
+.btn-buy {
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    transition-duration: 0.5s;
+    border: 2px solid #d6d6d6;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 140px;
+}
+
+.btn-buy:hover {
+    background-color: #d6d6d6;
+    opacity: 1;
+}
+
+.contact-us h3, p {
+    color: gray;
+}
 .contact-us {
     float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 input, textarea {
     width: 350px;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
     padding: 10px;
     font-size: 10px;
     border: 1px solid lightgray;
@@ -119,8 +150,15 @@ input, textarea {
 
 .contact-us-submit {
     margin-right: 100%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.5s;           
+}
+
+.contact-us-submit:hover {
     background-color: #d6d6d6;
-    color: black;           
+    opacity: 1;
 }
 
 .footer-container {
@@ -128,5 +166,17 @@ input, textarea {
     width: 100%;
     background-color: #d6d6d6;
     display: flex;
-    justify-content: center;
+}
+
+.footer-container p {
+    color: black;
+    text-decoration: none;
+    margin: 0 50px;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 100px;
+}
+
+.footer-container span {
+    color: green;
 }
