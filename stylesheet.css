@@ -67,11 +67,13 @@ header{
 }
 .about-us-contents img {
     padding-bottom: 10px;
+
 }
 
 .about-us-contents{
     padding-bottom: 10px;
     padding-left: 20px;
+    display: inline-block;
 }
 
 *{
@@ -133,10 +135,12 @@ header{
 .contact-us h3, p {
     color: gray;
 }
+
 .contact-us {
-    float: left;
+
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 input, textarea {
@@ -148,12 +152,15 @@ input, textarea {
     border: 1px solid lightgray;
 }
 
-.contact-us-submit {
-    margin-right: 100%;
+.contact-us-submit{
+
+    margin: 0 auto;
+    margin-top: 10px;
     background-color: white;
     color: black;
     cursor: pointer;
-    transition-duration: 0.5s;           
+    transition-duration: 0.5s;   
+    display: block;        
 }
 
 .contact-us-submit:hover {
@@ -179,4 +186,8 @@ input, textarea {
 
 .footer-container span {
     color: green;
+}
+
+.footer-logo{
+    float: right;
 }
