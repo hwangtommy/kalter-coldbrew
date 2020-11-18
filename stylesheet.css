@@ -28,13 +28,23 @@ header{
     padding: 21px 0;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     margin: 0 50px;
     color: #000000;
     font-size: 20px;
     display: inline-block;
     line-height: 100px;
+}
+
+.tag-menu {
+    font-weight: 850;
+}
+
+.sub-menu:hover {
+    color: gray;
+    transition-duration: 0.3s;
+
 }
 
 .top-wrapper{
@@ -237,4 +247,5 @@ footer a {
 
 .fa:hover {
     color: gray;
+    transition-duration: 0.3s;
 }
