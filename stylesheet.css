@@ -1,5 +1,5 @@
 header{
-    height: 100px;
+    height: auto;
     width: 100%;
     background-color: #d6d6d6;
     position: fixed;
@@ -11,14 +11,22 @@ header{
 
 .logo {
     height: 100px;
-
 }
 
 .header-container{
     align-items: center;
     display: flex;
     justify-content: center;
+
 }
+
+.menu-icon{
+    float: right;
+    font-size: 25px;
+    display: none;
+    color: #f7f7f7;
+    padding: 21px 0;
+  }
 
 .menu a{
     text-decoration: none;
@@ -31,7 +39,7 @@ header{
 
 .top-wrapper{
     padding: 150px 0;
-    margin-top: 100px;
+    margin-top: 120px;
     background-image: url(/Assets/top-background.jpg);
     opacity: 0.75;
     left: 0;
@@ -104,6 +112,10 @@ header{
     padding-top: 50px;
     text-align: center;
     color: gray;
+}
+
+.products{
+    height: auto;
 }
 
 .product {
