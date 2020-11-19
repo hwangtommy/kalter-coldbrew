@@ -133,17 +133,19 @@ header{
 
 .products{
     height: auto;
+    padding-left: 100px;
+
+    width: 100%;
 }
 
 .product {
     float: left;
-
+    margin: 0 auto;
 }
 
 .product-img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
     width: 50%;
     padding: 15px 15px;
 }
