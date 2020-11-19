@@ -1,7 +1,8 @@
 # kalter-coldbrew
 
-# This project is brought to you by Group # (what is our group name/number?)
+# This project is brought to you by Group # Tim Hijau
 # A part of Career Exploration Programme in Glints Academy
 
-# Members:
+# Members:  1. Tommy Arifin
+#           2. Ichwannu Saffa Shihab
 # To be updated
