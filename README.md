@@ -5,4 +5,7 @@
 
 # Members:  1. Tommy Arifin
 #           2. Ichwannu Saffa Shihab
+#           3. Dewanto Kironoputro
+#           4. Komalasari Kusuma Wardhani
+#           5. Lulu Nurfadlillah Windi Agustin
 # To be updated
